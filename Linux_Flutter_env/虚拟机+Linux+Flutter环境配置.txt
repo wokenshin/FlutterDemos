@@ -1,0 +1,20 @@
+虚拟机+Linux+Flutter环境配置
+
+2026-04-26-[以验证OK]Mac电脑安装虚拟机(wamere+Linux) 
+参考哔哩哔哩视频：https://www.bilibili.com/video/BV1V4421D7Gt/?spm_id_from=333.337.search-card.all.click&vd_source=87cc6260455baa464f9ef75f23eed89b
+
+2026-04-26-[以验证-拉垮]最初是使用trae来安装的、它给我推荐UMT+一堆乱七八糟的东西，最终没有解决问题、浪费了很多时间。。。还是太相信ai了、这里暂时不推荐。可能还是使用ai太少了、还需要加强。
+
+Flutter(适配鸿蒙的Flutter)环境在Linux上配置：
+参考：https://gitcode.com/openharmony-tpc/flutter_samples/blob/master/ohos/docs/03_environment/OpenHarmony-flutter%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E6%8C%87%E5%AF%BC.md
+
+
+遇到的坑
+我的Mac电脑是Arm64的、导致我的虚拟机安装的Linux也必须是arm64的、然后在配置鸿蒙打包环境的时候、发现官方目前还没有提供linux arm64的鸿蒙工具包。。。苹果和linux系统存在差异 虽然都是arm64芯片、但是这里的东西并不能服用。。。
+
+
+
+有方法--可以在mac电脑上安装虚拟机后、安装arm架构的Linux、然后通过转换运行x86的程序
+具体参考：https://www.bilibili.com/video/BV14r421s7gp/?spm_id_from=333.337.search-card.all.click&vd_source=87cc6260455baa464f9ef75f23eed89b
+
+由于网络和时间限制、暂时没有验证这个
